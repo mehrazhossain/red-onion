@@ -4,7 +4,7 @@ import logo from '../../images/logo2.png';
 
 const Footer = () => {
   return (
-    <div style={{ height: '320px' }} className="bg-dark w-100 footer p-5">
+    <div style={{ height: '330px' }} className="bg-dark w-100 footer p-5">
       <div className="row">
         <div className="col-md-6">
           <img style={{ height: '50px' }} src={logo} alt="" />
