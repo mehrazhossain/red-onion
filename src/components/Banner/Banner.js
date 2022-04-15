@@ -8,14 +8,27 @@ import banner from '../../images/bannerbackground.jpg';
 const Banner = () => {
   return (
     <>
-      <div class="bg-img">
-        <h1>Hello, Everyone!</h1>
+      <div class="banner">
+        <img src={banner} alt="" />
+        <div className="overlay">
+          <h2>Best food waiting for your belly</h2>
+          <div className="input-area">
+            <InputGroup className="mb-3">
+              <FormControl
+                placeholder="Search food items"
+                className="input-filed"
+              />
+              <InputGroup.Text
+                className="bg-danger text-light search-btn"
+                id="basic-addon2"
+              >
+                Search
+              </InputGroup.Text>
+            </InputGroup>
+          </div>
+        </div>
       </div>
     </>
-    // <div className="banner">
-    //   <img src={banner} className="img-fluid" alt="" />
-    //   <h1 className="heading">Hello, World!</h1>
-    // </div>
   );
 };
 
