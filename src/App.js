@@ -1,10 +1,14 @@
-import logo from './logo.svg';
+import { Routes } from 'react-router-dom';
 import './App.css';
+import Banner from './components/Banner/Banner';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div>
-      <h1>Hello, World!</h1>
+      <Header></Header>
+      <Banner></Banner>
+      <Routes></Routes>
     </div>
   );
 }
